@@ -1,0 +1,17 @@
+.user-summary-page {
+  .details .controls ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+}
+
+.details .controls {
+  li:first-child {
+    order: -2;
+  }
+
+  .user-profile-controls-outlet.chat-button {
+    order: -1;
+  }
+}
